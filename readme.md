@@ -1,7 +1,5 @@
 # Website layout
 
-This is website prepared by me.
-
 
 ### Links
 
