@@ -1,0 +1,14 @@
+.section-opinion{
+    @include flex(row);
+    justify-content: center;
+    @include theme-background(false);
+    padding: 5rem 0;
+
+    &__text{
+        @include theme-background(true);
+        border-radius: 50px 50px 50px 50px;
+        max-width: 65%;
+        text-align: center;
+        padding: 1.3rem;
+    }
+}

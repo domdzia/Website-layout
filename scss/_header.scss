@@ -1,0 +1,27 @@
+.header{
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+    
+    &__h1{
+        max-width: 80%;
+        margin: 0 auto;
+        font-size: 1.3rem;
+        line-height: 50px;
+    
+    }
+
+    &__img{
+        border-radius: 200px 200px 200px 200px;
+        max-width: 35%;
+        max-height: 100px;
+        
+    }
+
+    &__text{
+        max-width: 85%;
+        margin: 0 auto;
+        margin-top: 4rem;
+        text-align: center;
+    }
+    
+}

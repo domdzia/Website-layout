@@ -1,0 +1,106 @@
+@media (min-width: 900px) {
+    
+    .menu{
+        @include flex(row);
+        justify-content: space-between;
+        @include style-font-bigger-screen(1.7rem);
+    
+            &__list{
+            gap: 20px;
+        }
+
+    }
+
+    .header{
+        margin-top: 3rem;
+        padding-bottom: 4rem;
+        
+        &__h1{
+            @include style-font-bigger-screen(5rem);
+            margin: 0 auto;
+            line-height: 6rem;
+        
+        }
+    
+        &__text{
+            margin-top: 3rem;
+            @include style-font-bigger-screen(1.7rem);
+        }
+        
+    }
+
+    .section-information{
+        padding-top: 2rem;
+        
+        &__title{
+            @include style-font-bigger-screen(3rem);
+        }
+
+        }
+        
+        .wrapper{
+            &__number{
+                @include style-font-bigger-screen(3rem);
+            }
+        
+            &__title{
+                @include style-font-bigger-screen(3rem);
+            }
+                
+        }
+
+        .section-opinion{
+        
+            &__text{
+                @include theme-background(true);
+                line-height: 2rem;
+            }
+        }
+
+        .footer{
+            padding-top: 2.2rem;
+        
+            &__title{
+                @include style-font-bigger-screen(2.5rem); 
+            }
+        
+            &__button{
+                margin-top: 50px;
+                transition-duration: 0.1s;
+
+                &:hover{
+                    background-color: lighten($orange-background, 25%);
+                    color: black;
+                }
+            }
+
+            &__list{
+                display: flex;
+                list-style: none;
+                justify-content: center;
+                gap: 2rem;
+            }
+        
+        }
+        
+        .wrap-icon{
+            justify-content: flex-end;
+            @include style-font-bigger-screen(2rem); 
+            margin-right: 20px;
+        }
+
+}
+
+
+@media (min-width: 1560px){
+    .header{
+      
+        &__h1{
+            @include style-font-bigger-screen(6rem);
+            line-height: 8rem;
+        
+        }
+        
+    }
+
+}

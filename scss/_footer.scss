@@ -1,0 +1,39 @@
+.footer{
+    text-align: center;
+    line-height: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+
+    &__title{
+        font-weight: 700;
+    }
+
+    &__button{
+        @include theme-background(false);
+        color: azure;
+        margin-top: 20px;
+        padding: 1.3rem 3rem;
+        border-radius: 50px 50px 50px 50px;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        border: none;
+        cursor: pointer;
+    }
+
+    &__list{
+        padding: 1.3rem 0;
+    
+    }
+
+    &__list-item{
+        cursor: pointer;
+    }
+
+}
+
+.wrap-icon{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    cursor: pointer;
+}

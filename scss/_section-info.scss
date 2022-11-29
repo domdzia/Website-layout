@@ -1,0 +1,33 @@
+.section-information{
+@include flex(column);
+padding-bottom: 20px;
+@include theme-background(false);
+
+&__title{
+    max-width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.4rem;
+    margin-top: 1.5rem;
+    
+}
+}
+
+.wrapper{
+    max-width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 1rem;
+    &__number{
+        font-size: 2.3rem;
+    }
+
+    &__title{
+        font-size: 1.4rem;
+    }
+
+
+    &__img{
+        margin-top: 50px;
+    }
+}

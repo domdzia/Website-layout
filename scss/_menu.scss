@@ -1,0 +1,22 @@
+
+.menu{
+    @include flex(column);
+    padding: 2rem 1rem;
+    gap: 1rem;
+
+    &__logo{
+        align-self: center
+    }
+
+        &__list{
+        @include flex(row);
+        justify-content: center;
+        list-style: none;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    &__list-item{
+        cursor: pointer;
+    }
+}

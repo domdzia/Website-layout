@@ -1,0 +1,4 @@
+body{
+    @include style-font;
+    @include theme-background($elem: true);
+}
