@@ -5,7 +5,7 @@ This is website prepared by me.
 
 ### Links
 
-- You can check it here: [Click](https://domdzia.github.io/Clipboard-landing-page/)
+- You can check it here: [Link](https://domdzia.github.io/Website-layout/)
 
 
 ### Built with
